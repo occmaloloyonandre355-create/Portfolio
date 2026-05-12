@@ -236,15 +236,3 @@ section {
   height: 22px;
   object-fit: contain;
 }
-
-/* MOBILE RESPONSIVE */
-@media (max-width: 850px) {
-  .hero-container, .contact-box {
-    flex-direction: column;
-    text-align: center;
-  }
-  .contact-form, .contact-info { width: 100%; }
-  .contact-item { justify-content: center; }
-  .hero-image img { width: 250px; height: 250px; }
-  .interest-card, .skill-box { width: 100%; max-width: 350px; }
-}
